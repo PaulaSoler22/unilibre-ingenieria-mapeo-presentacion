@@ -10,12 +10,19 @@ Pieza **comercial de prospección** — la Universidad Libre **no es cliente** a
 Simuladores de Negocios Colombia — para directores de programa y decano de la **Facultad de
 Ingeniería**: Ingeniería Industrial (SNIES 54334) e Ingeniería de Sistemas (SNIES 11584).
 
-Se aparta de la plantilla estándar en un punto importante: el mapeo no se hizo solo contra el
-catálogo CompanyGame, sino también contra **SimVenture, SimAgile y SimProject** — simuladores
-especializados que no son del catálogo CompanyGame y que este deck asume que Simuladores de
-Negocios Colombia también representa. **Confirmar esto antes de la reunión** si no está ya
-validado comercialmente: el `README.md` y el pie de página del deck ya no dicen "distribuidor
-autorizado CompanyGame" en exclusiva por esta razón.
+Se aparta de la plantilla estándar en un punto importante: el mapeo también se hizo contra
+**SimAgile y SimProject** — simuladores especializados que no son del catálogo CompanyGame y
+que este deck asume que Simuladores de Negocios Colombia también representa. **Confirmar esto
+antes de la reunión** si no está ya validado comercialmente: el `README.md` y el pie de página
+del deck ya no dicen "distribuidor autorizado CompanyGame" en exclusiva por esta razón.
+
+El Excel también incluye **SimVenture** como tercer producto especializado, con encaje "Alta"
+en varias asignaturas (Gerencia Estratégica, Formulación y Evaluación de Proyectos, Costos de
+Operación, Práctica Empresarial). **El deck final no usa SimVenture en ninguna ficha**: el
+cliente interno revisó fila por fila y pidió explícitamente otro simulador o eliminar la fila
+en cada uno de esos casos (ver "Correcciones aplicadas…" abajo). Si SimVenture vuelve a ser
+relevante para otra asignatura de esta Facultad más adelante, sigue siendo parte del portafolio
+— simplemente no aparece en esta versión del deck.
 
 ## Fuente de los datos
 
@@ -27,136 +34,111 @@ Existe una versión previa sin "(revisado)" en Descargas
 (`Analisis_Simuladores_Universidad_Libre_Ing_Industrial_y_Sistemas.xlsx`) — **no se usó**; toda
 cifra de este deck sale de la versión "(revisado)".
 
-## Las cifras completas — incluida la cobertura que el deck no muestra
+## Cifras finales del deck
 
-El deck dice «20 asignaturas con simulador» y nunca el total analizado. Aquí está el
-denominador, por si lo preguntan en la reunión:
+| | Ing. Industrial | Ing. de Sistemas | Total Facultad |
+|---|---|---|---|
+| Asignaturas con simulador | 9 | 7 | **16** |
+| — de aplicación directa | 8 | 5 | 13 |
+| — como apoyo al curso | 1 | 2 | 3 |
+| Simuladores distintos | 9 | 7 | 11 |
+| Rango de semestres | 2 – 7 | 2 – 8 | 2 – 8 |
+
+Los 11 simuladores distintos: ContaTrainer, Business21, Corbatul, Coffee Time, InnovaTech,
+ESGManagement, Business Strategy, Businessglobal, Global2030 (9 del catálogo CompanyGame) +
+SimAgile + SimProject.
+
+## Punto de partida del Excel — para no improvisar si preguntan por la cobertura
+
+El deck nunca dice el total analizado ni el porcentaje de cobertura (criterio editorial, ver
+más abajo). Aquí está el denominador completo:
 
 | | Ing. Industrial | Ing. de Sistemas | Total |
-|---|---|---|
+|---|---|---|---|
 | Asignaturas en la malla | 53 | 53 | **106** |
 | Créditos | 144 | 144 | 288 |
 
-**Catálogo CompanyGame** (hoja Resumen Ejecutivo, columna "Grado de ajuste"):
+**Catálogo CompanyGame** (hoja Resumen Ejecutivo, columna "Grado de ajuste"): Encaje perfecto
+11 (7+4) · Encaje parcial 8 (3+5) · No encaja 75 (37+38) · Por definir 12 (6+6).
 
-| | Ing. Industrial | Ing. de Sistemas | Total |
-|---|---|---|
-| Encaje perfecto | 7 | 4 | 11 |
-| Encaje parcial | 3 | 5 | 8 |
-| No encaja | 37 | 38 | 75 |
-| Por definir (electivas sin contenido) | 6 | 6 | 12 |
-
-**SimVenture / SimAgile / SimProject** (calificación "Alta" en su propia columna):
-
-| | Ing. Industrial | Ing. de Sistemas | Total |
-|---|---|---|
-| SimVenture Alta | 1 | 1 | 2 |
-| SimAgile Alta | 1 | 1 | 2 |
-| SimProject Alta | 1 | 2 | 3 |
+**SimVenture / SimAgile / SimProject** (calificación "Alta" en su propia columna, antes de las
+correcciones manuales de esta sección): SimVenture Alta 2 (1+1) · SimAgile Alta 2 (1+1) ·
+SimProject Alta 3 (1+2).
 
 **Oportunidad de desarrollo propio** (Alta + Media, hoja Resumen Ejecutivo): 53 asignaturas en
-total (13 Ind.-Alta + 6 Sist.-Alta + 18 Ind.-Media + 16 Sist.-Media) — es decir, **la mitad del
-total de asignaturas de la Facultad** se clasificó como oportunidad de desarrollo propio de
-algún grado. El deck solo presenta los tres desarrollos que el cliente interno confirmó
-priorizar (ver abajo); el resto (DP-05 a DP-09, y DP-10 que es otra línea de producto) no se
-menciona, siguiendo el mismo criterio editorial de no exponer todo el diagnóstico.
+total — **la mitad del total de la Facultad**. El deck solo presenta tres (ver más abajo); el
+resto no se menciona, siguiendo el criterio editorial de no exponer todo el diagnóstico.
 
-## Metodología: cómo se llegó a 20 / 15 / 5 / 11
+## Correcciones aplicadas por el cliente interno — prevalecen sobre el Excel
 
-El deck no usa un solo campo del Excel como fuente de "asignatura con simulador": se construyó
-cruzando, fila por fila de las hojas "Ing. Industrial" e "Ing. de Sistemas" (columnas
-SimVenture / SimAgile / SimProject / Simulador CompanyGame que encaja / Nivel CG / Grado de
-ajuste), el siguiente criterio:
+La primera versión de este deck se construyó con una regla algorítmica pura sobre las columnas
+del Excel (Grado de ajuste / SimVenture / SimAgile / SimProject "Alta"). El cliente interno
+revisó esa versión asignatura por asignatura y pidió los siguientes cambios, que **prevalecen
+sobre lo que las columnas del Excel sugerían por sí solas**:
 
-- **Perfecto** (verde, "de aplicación directa"): `Grado de ajuste = Encaje perfecto`, o bien
-  ninguno de los tres simuladores especializados calificó "Alta" y el Grado de ajuste es
-  "No encaja" pero SimVenture, SimAgile o SimProject sí calificó **Alta** en su columna propia.
-- **Parcial** (ámbar, "como apoyo al curso"): `Grado de ajuste = Encaje parcial`, **siempre que
-  la columna "Simulador recomendado" nombre un simulador real** (ver salvedad siguiente).
-- Todo lo demás (Baja / No evaluable / No encaja sin ningún Alta) no entra al deck.
+| Asignatura | Programa(s) | Lo que decía el Excel | Lo que queda en el deck |
+|---|---|---|---|
+| Gerencia Estratégica | Ambos | SimVenture (Alta) + alternativa Businessglobal/Business Strategy | **Business Strategy**, sin alternativas |
+| Formulación y Evaluación de Proyectos | Ambos | SimVenture + SimProject (paquete) | **SimProject** únicamente |
+| Gestión de Proyectos de Ingeniería | Sistemas | SimProject (Alta) — el encaje más directo del análisis | **Eliminada del deck** |
+| Práctica Empresarial | Ambos | Encaje parcial vía SimVenture / Businessglobal | **Eliminada del deck** (las dos instancias) |
+| Mercadeo | Industrial | Columna CompanyGame decía "Coffee Time"; "Simulador recomendado" sugería MarketGame/GlobalMARKET | **Coffee Time** (se usó el valor de la columna CompanyGame, sin alternativas) |
+| Finanzas | Industrial | Encaje perfecto vía Kapital | **Eliminada del deck** |
+| Costos de Operación | Industrial | Encaje parcial vía SimVenture / ContaTrainer / Kapital | **Corbatul** únicamente |
 
-Con esto: Industrial 9 perfecto + 2 parcial = 11 · Sistemas 6 perfecto + 3 parcial = 9 ·
-Total 20 (15 perfecto + 5 parcial). Simuladores distintos: 9 en Industrial, 7 en Sistemas,
-**11 en total en toda la Facultad** (8 del catálogo CompanyGame + SimVenture + SimAgile +
-SimProject): ContaTrainer, Business21, Kapital, MarketGame/GlobalMARKET, InnovaTech,
-ESGManagement/ESGProject, Businessglobal/Business Strategy, Global2030, SimVenture, SimAgile,
-SimProject.
+Efecto agregado: Industrial pasó de 11 a 9 asignaturas (perdió Finanzas y Práctica Empresarial),
+Sistemas pasó de 9 a 7 (perdió Gestión de Proyectos de Ingeniería y Práctica Empresarial), y
+**SimVenture quedó sin ninguna fila** — por eso el slide de "otros simuladores" solo presenta
+SimAgile y SimProject, no los tres que trae el Excel.
 
-**Nota:** una suma ingenua de las cifras por categoría de la hoja Resumen Ejecutivo (11+8
-CompanyGame + 2+2+3 SimVenture/SimAgile/SimProject) da 26, no 20 — la diferencia son
-asignaturas que califican por más de un criterio a la vez (p. ej. Gerencia Estratégica: encaje
-perfecto de catálogo **y** SimVenture Alta) y que en el deck cuentan una sola vez.
+## Salvedades del Excel — antecedentes de la metodología algorítmica original
 
-## Salvedades del Excel — para no improvisar si preguntan
+Estas notas explican por qué la primera versión (antes de las correcciones de la tabla
+anterior) clasificaba las cosas como las clasificaba — quedan como referencia:
 
-- **Tres filas con "Grado de ajuste = Encaje parcial" que en realidad no tienen simulador
-  hoy.** SIMULACIÓN DE PROCESOS (Industrial, sem. VIII), SEGURIDAD DE LA INFORMACIÓN (Sistemas,
-  sem. VII) y SISTEMAS INTEGRADOS DE GESTIÓN (Sistemas, sem. VIII) están marcadas "Encaje
-  parcial" en la columna de grado, pero su columna "Simulador recomendado" dice literalmente
-  "Desarrollo propio (…)" y la columna CompanyGame está vacía ("—"). Se excluyeron de las fichas
-  (no son "lo que ya se puede hacer hoy") y en cambio alimentan el slide de Desarrollos propios:
-  SIMULACIÓN DE PROCESOS → línea de DP-01 (Planeación y Control de Operaciones); SEGURIDAD DE LA
-  INFORMACIÓN → línea de DP-05 (no incluido entre los tres priorizados); SISTEMAS INTEGRADOS DE
-  GESTIÓN → línea de DP-03 (sí incluido).
-- **Inconsistencia entre columnas para dos asignaturas.** En GERENCIA ESTRATÉGICA (ambos
-  programas) y MERCADEO (Industrial), la columna "Simulador CompanyGame que encaja" nombra un
-  producto (Business Strategy; Coffee Time) que no coincide con los dos niveles que trae
-  "Nivel CG" (p. ej. "N5 / N6-7"), mientras que la columna "Simulador recomendado" sí nombra dos
-  productos consistentes con esos dos niveles (Businessglobal N5 / Business Strategy N6-7;
-  MarketGame N1-2 / GlobalMARKET N6-7). El deck usa la redacción de "Simulador recomendado" en
-  estos dos casos para no mostrar un nivel que no corresponde al producto.
-- **Valor suelto en una celda.** En Ing. Industrial, la fila DISEÑO EN INGENIERÍA tiene "169" en
+- **Tres filas con "Grado de ajuste = Encaje parcial" que en realidad no tenían simulador.**
+  Simulación de Procesos (Industrial), Seguridad de la Información y Sistemas Integrados de
+  Gestión (Sistemas) tienen columna CompanyGame vacía ("—") y su "Simulador recomendado" dice
+  literalmente "Desarrollo propio (…)". Nunca entraron a las fichas; alimentan el razonamiento
+  del slide de desarrollos propios.
+- **Valor suelto en una celda.** En Ing. Industrial, la fila Diseño en Ingeniería tiene "169" en
   la columna "Simulador CompanyGame que encaja" — no es un simulador, parece un residuo de
-  captura. Como el Grado de ajuste de esa fila es "No encaja", el valor nunca iba a mostrarse,
-  pero convendría corregirlo en el Excel fuente.
+  captura. Convendría corregirlo en el Excel fuente (no afecta el deck: esa fila usa SimAgile).
 - Las columnas SimVenture/SimAgile/SimProject solo usan tres niveles (Alta / Baja / No
-  evaluable) — no existe una calificación "Media" para estos tres productos, a diferencia del
-  catálogo CompanyGame que sí tiene "Encaje parcial".
-- La columna "Simulador recomendado" a veces nombra un simulador (típicamente SimVenture) como
-  alternativa aunque su propia columna de calificación diga "Baja" para esa fila — el deck
-  conserva esas alternativas como texto secundario ("o SimVenture") en la ficha, porque son
-  literales del Excel, pero no las cuenta para las cifras de "simuladores distintos".
-- Ninguna asignatura quedó "por definir" dentro del conjunto de 20 (las 12 electivas/optativas
-  "por definir" del catálogo CompanyGame no entraron al deck en ningún caso).
+  evaluable) — no existe "Media" para estos tres productos, a diferencia del catálogo
+  CompanyGame que sí tiene "Encaje parcial".
 
 ## Los tres desarrollos propios del slide "Lo que viene"
 
-Confirmados directamente por el cliente interno (no son los de mayor prioridad académica de la
-hoja "Desarrollos Propios" — esos son DP-01 y DP-03 en Prioridad 1; DP-02 está en Prioridad 3
-por solaparse con el catálogo):
+**Confirmados por el cliente interno mediante resaltado en amarillo en la hoja "Desarrollos
+Propios" del Excel** (no son los de mayor prioridad académica de esa hoja — ver tabla):
 
-- **DP-01 · Planeación y Control de Operaciones** (Ing. Industrial, Prioridad 1).
+- **DP-04 · Cadena de Suministro — GlobalChain** (Ing. Industrial). **Ya existe como producto**:
+  no es un desarrollo pendiente, se presenta como algo que ya se puede ofrecer hoy.
 - **DP-03 · Implementación y Auditoría de Sistemas Integrados de Gestión** (los dos programas,
-  Prioridad 1).
-- **DP-02 · Transformación Digital y Arquitectura Empresarial** (los dos programas, Prioridad 3
-  — la familia Business Transformation del catálogo, TRANSFORMA/Global2030, ya cubre buena
-  parte; el desarrollo propio se evalúa solo si el programa exige algo más específico).
+  Prioridad 1 en la hoja).
+- **DP-08 · Seguridad y Salud en el Trabajo (SG-SST)** (Ing. Industrial, Prioridad 3 en la
+  hoja — baja prioridad académica, pero el cliente interno lo prioriza igual).
 
-**DP-04 (Cadena de Suministro) no es uno de los tres.** Ya existe como producto:
-**GlobalChain**. El deck lo presenta aparte, como algo que ya se puede ofrecer hoy, no como un
-desarrollo pendiente.
-
-Quedan fuera del deck, por decisión editorial (no exponer todo el diagnóstico): DP-05
-(Seguridad de la Información), DP-06 (Control Estadístico de Calidad), DP-07 (Dilemas Éticos),
-DP-08 (SG-SST), DP-09 (Diseño de Instalaciones) y DP-10 (laboratorios virtuales — línea de
-producto distinta, no es un simulador de gestión).
+Quedan fuera del deck, por decisión editorial (no exponer todo el diagnóstico): DP-01
+(Planeación y Control de Operaciones, la mayor oportunidad según la hoja), DP-02
+(Transformación Digital), DP-05 (Gestión de Incidentes de Seguridad), DP-06 (Control
+Estadístico de Calidad), DP-07 (Dilemas Éticos), DP-09 (Diseño de Instalaciones) y DP-10
+(laboratorios virtuales — otra línea de producto).
 
 ## Slides añadidos o eliminados respecto a la plantilla
 
-- **Añadido** — "Simuladores más allá del catálogo CompanyGame" (`slideOtrosSimuladores`),
-  después de la cartelera: contexto breve de SimVenture, SimAgile y SimProject. No existe en la
-  plantilla porque ninguna universidad anterior mezclaba productos de fuera del catálogo
-  CompanyGame.
-- **Añadido** — "Lo que viene: desarrollos propios en evaluación" (`slideDesarrollosPropios`),
-  antes de Evidencia de aprendizaje: los tres desarrollos confirmados + nota de GlobalChain.
+- **Añadido** — "Dos simuladores más, fuera del catálogo CompanyGame" (`slideOtrosSimuladores`),
+  después de la cartelera: contexto breve de SimAgile y SimProject.
+- **Añadido** — "Lo que viene: más allá del catálogo actual" (`slideDesarrollosPropios`), antes
+  de Evidencia de aprendizaje: GlobalChain (ya disponible) + los dos desarrollos en evaluación.
 - **Eliminado** — el slide de "Asignaturas transversales". Solo Cátedra de Sostenibilidad se
   repite en los dos programas con encaje perfecto (una asignatura, no varias), así que no
   justifica un slide propio con cadena de valor de tres eslabones. Ese hallazgo se cuenta en el
   acordeón del slide 3 ("Lo que ya se puede hacer hoy").
 - Slides fijos sin tocar: Portada, Cartelera, Los tres modelos de uso docente, Cierre.
-- Slide "Evidencia de aprendizaje": se dejaron solo los simuladores que aparecen en el mapeo
-  (8 de CompanyGame) y se añadieron tres filas nuevas para SimVenture, SimAgile y SimProject —
-  no estaban en la tabla original de la plantilla porque es una tabla del catálogo CompanyGame.
+- Slide "Evidencia de aprendizaje": solo los simuladores que quedaron en las fichas finales,
+  más SimAgile y SimProject, más GlobalChain (por el desarrollo propio ya disponible).
 
 ## Tono con el docente
 

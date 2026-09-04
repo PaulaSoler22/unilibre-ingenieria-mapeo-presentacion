@@ -12,13 +12,13 @@ propios en evaluación.
 
 ## Cifras de portada
 
-- **20 asignaturas** ya pueden trabajarse con un simulador (15 de aplicación directa + 5 como
+- **16 asignaturas** ya pueden trabajarse con un simulador (13 de aplicación directa + 3 como
   apoyo al curso), entre los dos programas.
-- **11 simuladores distintos**: 8 del catálogo CompanyGame + SimVenture, SimAgile y SimProject.
+- **11 simuladores distintos**: 9 del catálogo CompanyGame + SimAgile y SimProject.
 - Rango: **semestre 2 a 8**, en los dos pregrados.
-- **3 desarrollos propios** en evaluación (Planeación y Control de Operaciones · Implementación
-  y Auditoría de SIG · Transformación Digital y Arquitectura Empresarial), más **GlobalChain**
-  (cadena de suministro), que ya existe.
+- **GlobalChain** (cadena de suministro) ya disponible, más **2 desarrollos propios en
+  evaluación**: Implementación y Auditoría de Sistemas Integrados de Gestión, y Seguridad y
+  Salud en el Trabajo (SG-SST).
 
 El detalle completo, las cifras que el deck omite a propósito (criterio editorial) y las
 salvedades de esta universidad están en `CLAUDE.md`.
@@ -27,7 +27,7 @@ salvedades de esta universidad están en `CLAUDE.md`.
 
 1. Portada y contexto
 2. Cartelera de simuladores CompanyGame
-3. Simuladores más allá del catálogo CompanyGame — SimVenture, SimAgile, SimProject (añadido)
+3. Simuladores más allá del catálogo CompanyGame — SimAgile, SimProject (añadido)
 4. Lo que ya se puede hacer hoy
 5. Alcance por programa
 6. Ficha — Ingeniería Industrial
