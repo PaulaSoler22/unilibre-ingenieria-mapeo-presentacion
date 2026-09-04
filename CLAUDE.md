@@ -140,6 +140,23 @@ Estadístico de Calidad), DP-07 (Dilemas Éticos), DP-09 (Diseño de Instalacion
 - Slide "Evidencia de aprendizaje": solo los simuladores que quedaron en las fichas finales,
   más SimAgile y SimProject, más GlobalChain (por el desarrollo propio ya disponible).
 
+## Pendiente: logos/capturas de SimAgile y SimProject
+
+El cliente compartió una ficha de producto en PDF ("Simuladores de proyectos.pdf") con el logo
+y capturas de pantalla reales de SimAgile y SimProject (Product Backlog / Scrum Board para
+SimAgile; pantallas de Nuevo proyecto / Planeación / Ejecución para SimProject). No se pudo
+localizar ese archivo en el sistema de archivos para incrustarlo automáticamente — el slide
+`slideOtrosSimuladores` usa emoji como marcador temporal en el ícono de cada tarjeta.
+
+**Para completarlo:** copiar el logo de cada producto a `assets/simagile-logo.png` y
+`assets/simproject-logo.png` (o decirle a Claude dónde quedó guardado el PDF) y reemplazar el
+`<div class="card-icon">` de cada tarjeta por `<img src="assets/simagile-logo.png" ...>` /
+`<img src="assets/simproject-logo.png" ...>`.
+
+Nota editorial: por pedido explícito del cliente, esa comparación NUNCA debe presentar a
+SimAgile/SimProject como "fuera de" o "menos que" el catálogo CompanyGame — son un complemento
+del mismo portafolio para procesos propios de ingeniería.
+
 ## Tono con el docente
 
 Se mantuvo el criterio de la plantilla: el simulador se integra al curso que el docente ya
