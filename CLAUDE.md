@@ -38,15 +38,22 @@ cifra de este deck sale de la versión "(revisado)".
 
 | | Ing. Industrial | Ing. de Sistemas | Total Facultad |
 |---|---|---|---|
-| Asignaturas con simulador | 9 | 7 | **16** |
-| — de aplicación directa | 8 | 5 | 13 |
-| — como apoyo al curso | 1 | 2 | 3 |
-| Simuladores distintos | 9 | 7 | 11 |
+| Asignaturas con simulador | 9 | 6 | **15** |
+| — de aplicación directa | 6 | 3 | 9 |
+| — como apoyo al curso | 3 | 3 | 6 |
+| Simuladores distintos | 9 | 6 | 10 |
 | Rango de semestres | 2 – 7 | 2 – 8 | 2 – 8 |
 
-Los 11 simuladores distintos: ContaTrainer, Business21, Corbatul, Coffee Time, InnovaTech,
-ESGManagement, Business Strategy, Businessglobal, Global2030 (9 del catálogo CompanyGame) +
-SimAgile + SimProject.
+Los 10 simuladores distintos: ContaTrainer, Business21, Corbatul, Coffee Time, InnovaTech,
+ESGManagement, Business Strategy, Businessglobal (8 del catálogo CompanyGame) + SimAgile +
+SimProject.
+
+**Segunda ronda de correcciones del cliente interno** (además de las de la tabla más abajo):
+Diseño en Ingeniería y Gestión de Tecnología (Industrial) pasaron de encaje perfecto a parcial;
+Pensamiento Sistémico (Sistemas) pasó de perfecto a parcial; Arquitectura Empresarial (Sistemas,
+Global2030) se eliminó del deck por completo. Ningún simulador cambió de asignatura en esta
+ronda — solo la columna (perfecto/parcial) y, en el caso de Arquitectura Empresarial, la
+eliminación total de la fila.
 
 ## Punto de partida del Excel — para no improvisar si preguntan por la cobertura
 

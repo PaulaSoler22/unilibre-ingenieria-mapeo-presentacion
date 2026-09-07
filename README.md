@@ -6,15 +6,16 @@ SNIES 54334 — e Ingeniería de Sistemas — SNIES 11584). La Universidad Libre
 actual** del distribuidor: esta es una pieza de prospección.
 
 No presenta un simulador: muestra, pregrado por pregrado, qué asignaturas del plan de estudios
-pueden trabajarse hoy con un simulador — del catálogo CompanyGame o con SimVenture, SimAgile y
-SimProject — con cuál y en qué semestre. También incluye una vitrina de tres desarrollos
-propios en evaluación.
+pueden trabajarse hoy con un simulador — del catálogo CompanyGame o con SimAgile y SimProject,
+simuladores especializados que completan el mismo portafolio para procesos propios de
+ingeniería — con cuál y en qué semestre. También incluye una vitrina de desarrollos propios en
+evaluación.
 
 ## Cifras de portada
 
-- **16 asignaturas** ya pueden trabajarse con un simulador (13 de aplicación directa + 3 como
+- **15 asignaturas** ya pueden trabajarse con un simulador (9 de aplicación directa + 6 como
   apoyo al curso), entre los dos programas.
-- **11 simuladores distintos**: 9 del catálogo CompanyGame + SimAgile y SimProject.
+- **10 simuladores distintos**: 8 del catálogo CompanyGame + SimAgile y SimProject.
 - Rango: **semestre 2 a 8**, en los dos pregrados.
 - **GlobalChain** (cadena de suministro) ya disponible, más **2 desarrollos propios en
   evaluación**: Implementación y Auditoría de Sistemas Integrados de Gestión, y Seguridad y
